@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, #531dab, white);
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps the background fixed as the page scrolls */
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  padding: 0px 20px;
+  font-weight: bold;
+  /* margin: 20px; */
+  /* font-family: "Garamond Georgia"; */
+  font-size: min(5vw, 5vh);
+}
+
+.welcomeContext {
+  padding: 0px 20px;
+  /* margin: 20px; */
+  /* font-family: "Garamond Georgia"; */
+  font-size: min(4vw, 4vh);
+  min-height: "100vh";
+}
