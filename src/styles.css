@@ -8,26 +8,48 @@ body {
   background-attachment: fixed; /* Keeps the background fixed as the page scrolls */
 }
 
-.App {
-  font-family: sans-serif;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .welcome {
-  padding: 0px 20px;
+  background-color: white;
+  color: black;
+  font-size: max(6vh, 6vw);
   font-weight: bold;
-  /* margin: 20px; */
-  /* font-family: "Garamond Georgia"; */
-  font-size: min(5vw, 5vh);
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  left: 50%;
+  mix-blend-mode: screen; /* This makes the cutout text possible */
 }
 
 .welcomeContext {
-  padding: 0px 20px;
-  /* margin: 20px; */
-  /* font-family: "Garamond Georgia"; */
+  padding: 0px 30px;
+  font-family: Georgia, serif;
   font-size: min(4vw, 4vh);
-  min-height: "100vh";
+}
+
+.user-login-header {
+  color: #cc2fe0;
+  font-size: min(4vh, 4vw);
+  font-weight: bold;
+  font-family: Georgia, serif;
+  opacity: 0.7;
+}
+
+.input-container {
+  width: 70%;
+}
+
+.icon {
+  padding: 10px;
+  background: #cc2fe0;
+  color: white;
+  border-radius: 50%;
+}
+
+@media (max-width: 900px) {
+  .welcomeContext {
+    font-size: max(4vw, 4vh);
+  }
+  .user-login-header {
+    font-size: max(4vw, 4vh);
+  }
 }
